@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Rebecca's Database</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="ADD SITE DESCRIPTION">
+		<meta name="author" content="ADD AUTHOR INFORMATION">
+		<meta name="robots" content="index, follow">
+
+		
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="assets/highlight/styles/tomorrow.css">
+<script src="assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+       
+
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<br>
+				<br>
+				<h1 class="header-heading">Fruit Bowl Sprints</h1>
+			</div>
+			<div class="nav-bar">
+				<ul class="nav">
+					<li><a href="#Brief">Brief</a></li>
+					<li><a href="#Version 1a">Sprint One</a></li>
+					<li><a href="#Version 1b">Sprint Two</a></li>
+					<li><a href="#Version 2">Version Two</a></li>
+					<li><a href="#Version 3">Version Three</a></li>
+					<li><a href="#RI">Relevant Implications</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				
+<br id="Brief">	
+	<br>
+	<br>
+      <!-- Brief-->         
+	<h1>Brief</h1>
+<p>The database I will be making could potentially be suitable for libraries and book clubs. The main goal for this database is to allow members of the book club to access information about a book. This allows them to search the name of books which would give any information (like the name of the author, when it is published and so on). It gives them an opportunity to look for books they haven’t read based on genres and background information about the author. When we go to libraries, we often judge a book by the front cover and by making a database with only information (no front cover pictures) this helps eliminate the problem that is set around the world.</p>			
+		<br id="Version 1a">
+					<hr>
+
+    <!-- Version One -->
+    <h1>Sprint One</h1>
+	<p><b>Aim:</b><br> This is for the basic first version of the program. It has very limited functionally but will create a shell that we can add further features to</p>
+				
+	<br id="Version 1b">
+				<hr>
+				
+	<h1>Sprint Two</h1>
+	<p><b>Aim:</b> To be able to add a new fruit and the quantity of it</p>
+				
+	<div class="col-container">
+		<div class="col">
+		<p><b>Identifying Repeated and Awkwardly Fitted Data in the Database Table: </b>
+			<br>
+		Genre - Repeating itself (genre_1, genre_2, genre_3, genre_4) and it also fitted awkwardly in the Database Table
+			<br>		
+		Photo Evidence:</p>
+				</div>
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Genre_screenshot.jpg" alt="Screenshot of different types of genre" width="300" height="400">
+				</div>
+				</div>					
+				
+	<div class="col-container">
+    <div class="col">
+	<p><b>Brainstorm - Planning:</b><br>	
+		Photo Evidence:</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		<p>Created a relationship diagram with an association table for genre and books. As you can see in the picture above, I have decided to create a relationship diagram with genre and books. I thought it would be easier to connect them together. </p>
+				</div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Version_1_Page_3.jpg" alt="Screenshot of Association tables for genre" width="300" height="365">
+		</div>
+		</div>						
+					
+		<p><b>Written Queries that a people from the Book Club would ask:</b>
+		<br> 
+		<u>Possible queries: </u><br></p>
+		<ul>
+		<li>Find all Book titles with genres from the database</li>
+		<br>
+		<li>How many genres are there in the database?</li>
+		<br>
+		<li>Find all book titles and page count with Genres starting with Young Adult</li>
+		<br>
+		<li>Find all book titles with Genres starting with Fairy Tale</li>
+		<br>
+		<li>Find book published after 2005</li>
+		<br>
+		<li>Select books with the title beginning with H</li>
+		<br>
+		<li>Present and organise all books in alphabetical order</li>
+		<br>
+		<li>What was the title of the books written by ‘Dan Brown’?</li>
+				</ul>
+				
+		<br id="Version 2">
+				
+				<hr>
+	<h1>Version Two - Stage 2a</h1>
+	<p><b>Aim:</b> To start building a database using the information gathered in version 1 </p>
+	
+	<div class="col-container">
+    <div class="col">
+	<p><b>Precisely & carefully decided on column names and datatypes: </b>	<br>
+	Photo Evidence:</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+	<p>Using the Relationship diagram that I had made in Version 1 was exactly what I needed since it had the data type, boundary limits and column names written on the page. </p>
+				</div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Version_1_Page_3.jpg" alt="Screenshot of Association tables for genre" width="300" height="365">
+	</div>
+	</div>	
+				
+	<p><b>Spreadsheets prepared that precisely mirror the actual database: </b><br>
+	<p>Note: The tabs at the bottom of the google sheet has different titles - please look at 'genre_table','genre_table' and 'genre_book - association_table'</p>
+	<a href="https://docs.google.com/spreadsheets/d/1SnHYSvaVLCoOwHqqtG5E9hV0JEGQHSIeuxdH6UdPpcE/edit#gid=0" class="btn">Link to Data Spreadsheet</a></p>	
+				
+	<p><b>Queries that I have made and will do some testing: </b><br>
+	Evidence shown - to prove that I did do the queries</p>
+			<ul>
+	<p><li><u>Find all Book titles with genres from the database</u></li></p></ul>
+	
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title, genre_table.genre
+	from book_table
+	join association_book_genre on book_table.book_id = 
+	association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id;
+			</code>
+			</pre>
+
+	<table class="my-table">
+	<tr><th>* Title</th><th>Genre</th></tr>
+	<tr><td>The Book Thief</td><td>Fiction</td></tr>
+	<tr><td>Clockwork Princess</td><td>Fantasy</td></tr>
+	<tr><td>Clockwork Princess</td><td>Young Adult</td></tr>
+	<tr><td>Harry Potter and the Order of the Phoenix</td><td>Fantasy</td></tr>
+	<tr><td>Delirium</td><td>Fiction</td></tr>
+	<tr><td>Delirium</td><td>Young Adult</td></tr>
+	<tr><td>Delirium</td><td>Science</td></tr>
+	<tr><td>The Princess Diaries</td><td>Young Adult</td></tr>
+	<tr><td>Harry Potter and the Goblet of Fire</td><td>Fantasy</td></tr>
+	</table>
+		<p>* Shorted the Table so it wouldn't be too long</p>		
+				<br>
+				
+	<ul>
+	<p><li><u>How many genres are there in the database?</u><br></li></ul>
+		There is 21 Genres in the database </p>
+	
+	<div class="col-container">
+    <div class="col">
+			<br>
+			<br>
+			<pre style="font-size: 1.1em;">
+			<code class="SQL">
+	select genre
+	from genre_table;
+			</code>
+			</pre>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>* Shorted the Table so it wouldn't be too long</p>
+				</div>
+		
+    <div class="col">
+	<table class="my-table">
+	<tr><th>* Genre</th></tr>
+	<tr><td>Fiction</td></tr>
+	<tr><td>Fantasy</td></tr>
+	<tr><td>Young Adult</td></tr>
+	<tr><td>Thriller</td></tr>
+	<tr><td>Encyclopedia</td></tr>
+	<tr><td>Adventure</td></tr>
+	<tr><td>Non-Fiction</td></tr>
+	<tr><td>Children</td></tr>
+	<tr><td>Romance</td></tr>
+	</table>
+				</div>			
+				</div>
+				
+				<br>
+
+	<ul><p><li><u>Find all book titles and page count with Genres starting</u></li></p></ul>
+				
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title, book_table.page_count, genre_table.genre
+	from book_table
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id
+	where genre_table.genre="Young Adult";	
+			</code>
+			</pre>	
+				
+	<table class="my-table">
+	<tr><th>Title</th><th>Page_count</th><th>Genre</th></tr>
+	<tr><td>Clockwork Princess</td><td>568</td><td>Young Adult</td></tr>
+	<tr><td>Delirium</td><td>406</td><td>Young Adult</td></tr>
+	<tr><td>The Princess Diaries</td><td>230</td><td>Young Adult</td></tr>
+	<tr><td>The Raft</td><td>231</td><td>Young Adult</td></tr>
+	<tr><td>Maximum Security</td><td>277</td><td>Young Adult</td></tr>
+	<tr><td>Coco Caramel</td><td>263</td><td>Young Adult</td></tr>
+	<tr><td>The Elite</td><td>323</td><td>Young Adult</td></tr>
+	<tr><td>City of Glass</td><td>496</td><td>Young Adult</td></tr>
+	<tr><td>Code</td><td>407</td><td>Young Adult</td></tr>
+	<tr><td>The Bees</td><td>346</td><td>Young Adult</td></tr>
+	<tr><td>Jane, Unlimited</td><td>458</td><td>Young Adult</td></tr>
+	</table>
+				<br>
+				
+	<ul><p><li><u>Find all book titles with Genres starting with Fairy Tale</u></li></p></ul>
+				
+		<pre style="font-size: 1.1em;">
+		<code class="SQL">
+	select book_table.title, genre_table.genre
+	from book_table
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id
+	where genre_table.genre="Fairy Tale";
+			</code>
+			</pre>	
+				
+		<p> Should have a result of nothing as there are no books with the genre Fairy Tale</p>		
+			
+				<br>
+				
+	<ul><p><li><u>Find book published before 2005</u></li></p></ul>
+	
+		<div class="col-container">
+    <div class="col">
+			<pre style="font-size: 1.1em;">
+			<code class="SQL">
+	select book_table.title, book_table.publication_date
+	from book_table
+	where book_table.publication_date < 2005;
+			</code>
+			</pre>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<p>* Shorted the Table so it wouldn't be too long</p>
+    </div>
+		
+    <div class="col">
+<table class="my-table">
+	<tr><th>* Title</th><th>Publication_date</th></tr>
+	<tr><td>Harry Potter and the Order of the Phoenix</td><td>2003</td></tr>
+	<tr><td>The Princess Diaries</td><td>2000</td></tr>
+	<tr><td>Harry Potter and the Goblet of Fire</td><td>2000</td></tr>
+	<tr><td>The Da Vinci Code</td><td>2003</td></tr>
+	<tr><td>Ireland</td><td>2000</td></tr>
+	<tr><td>Rachel's Holiday</td><td>1997</td></tr>
+	</table>
+    </div>
+	</div>			
+
+	<ul><p><li><u>Select books with the title beginning with C</u></li></p></ul>
+	
+	<div class="col-container">
+    <div class="col">
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title
+	from book_table
+	where book_table.title like "% C%";
+			</code>
+			</pre>
+				</div>
+		
+    <div class="col">
+	<table class="my-table">
+	<tr><th>Title</th></tr>
+	<tr><td>The Da Vinci Code</td></tr>
+	<tr><td>Coco Caramel</td></tr>
+	<tr><td>Harry Potter and the Curced Child</td></tr>
+	</table>
+				</div>			
+				</div>
+		
+	<ul><p><li><u>Present and organise all book titles in alphabetical order</u></li></p></ul>
+	
+		<div class="col-container">
+    <div class="col">
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title "titles"
+	from book_table
+	order by titles asc;
+	</code>	
+	</pre>
+			<br>
+			<br>
+			<br>
+			<br>	
+		
+			<p>* Shorted the Table so it wouldn't be too long</p>
+				</div>
+		
+    <div class="col">
+	<table class="my-table">
+	<tr><th>* Titles</th></tr>
+	<tr><td>A Wanted Man</td></tr>
+	<tr><td>Ancient Greeks</td></tr>
+	<tr><td>City of Glass</td></tr>
+	<tr><td>Clockwork Princess</td></tr>
+	<tr><td>Coco Caramel</td></tr>
+	<tr><td>Code</td></tr>
+	<tr><td>Delirium</td></tr>
+	<tr><td>Harry Potter and the Curced Child</td></tr>
+	<tr><td>Harry Potter and the Deathly Hallows</td></tr>
+	</table>
+				</div>			
+				</div>
+
+	<ul><p><li><u>What was the title of the books and genres written by ‘Dan Brown’ & ‘J.K. Rowling’ and in alphabetical them for titles?</u></li></p></ul>
+			
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title "titles", genre_table.genre, book_table.author "authors"
+	from book_table
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id
+	where authors = "Dan Brown" or authors = "Cathy Cassidy"
+	order by titles desc;
+	</code>
+	</pre>
+			
+	<table class="my-table"><tr><th>Titles</th><th>Genre</th><th>Authors</th></tr>
+	<tr><td>The Da Vinci Code</td><td>Thriller</td><td>Dan Brown</td></tr>
+	<tr><td>Coco Caramel</td><td>Young Adult</td><td>Cathy Cassidy</td></tr>
+	</table>
+			
+			<br>
+	
+	<p><b>Testing Queries - Problem and Fixes:</b></p>
+	<p>When I was trying to find answers to my queries and creating the databases, there were a few problems that I came across. </p>		
+			
+	<div class="col-container">
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_1.jpg" alt="Screenshot of a problem when creating an assocation_book_table" width="400" height="159">
+    </div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_1_fixed.jpg" alt="Screenshot of a problem when creating an assocation_book_table - but solved" width="400" height="167">
+    </div>
+	</div>		
+
+	<p>When I was creating the assocation_book_table, I needed to connect the book_id and genre_id as a primary key. As you can see, there was a problem that occured and it said “association_book_table has more than one primary key”. This means my book_id and genre_id were primary keys which was what I needed but it wasn’t typed in correctly so this means I needed to change my wording but making sure I still wanted my book_id and genre_id to be primary keys.<br>
+	In the second screenshot (on the right), was another way of saying that I wanted the book_id and genre_id to be primary keys but in a different way. This time the database knew what I wanted to do.</p>
+		
+	<div class="col-container">
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_2.jpg" alt="Screenshot of a problem when putting book_id and genre_id" width="400" height="153">
+    </div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_2_fixed.jpg" alt="Screenshot of a problem when putting book_id and genre_id - solved" width="400" height="152">
+    </div>
+	</div>		
+
+	<p>In the first photo (the left one), I have created a problem which I thought was correct. Instead, the error had said “UNIQUE constraint failed: association_book_genre.book_id”.<br>
+	<u>Unique</u> - being the only one of its kind; unlike anything else<br>
+	<u>Constraint</u> - a limitation or restriction<br>
+	The error above means: a problem which is one of its kind created a limitation. I decided to look into the problem further and it turns out that I had replaced a dot between the genre and book_id. <br>
+	In the second photo (right one), there was only one small change which I had changed. This allows me to learn from my own mistakes by checking the code again before playing the sql code. The littlest mistakes can make the whole sql code incorrect even though I have done the rest of the code correctly.</p>	
+			
+	<div class="col-container">
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_3.jpg" alt="Screenshot of a synatx error" width="400" height="141">
+    </div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_3_fixed.jpg" alt="Screenshot of a synatx error - fixed" width="400" height="245">
+    </div>
+	</div>		
+					
+	<p>In the first screenshot, there is an obvious error that I have made which has turned the whole sql code into an error. In the red box it says ‘near “<”: syntax error’. This means here is an error near the “<” in the code above the red box. This was a very simple error that I picked up easily. There shouldn't be an equal sign (=) in the code before the “<” sign. When I deleted the equal sign the code was all fixed up (second screenshot - right side) which showed the answer to the query.</p>		
+	
+	<div class="col-container">
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_4.jpg" alt="Screenshot of a problem" width="400" height="181">
+    </div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_4_fixed.jpg" alt="Screenshot of a problem - fixed" width="400" height="232">
+    </div>
+	</div>	
+		
+	<p>The first screenshot wasn’t incorrect since it didn’t show a red box but it was incorrectly written which meant it didn’t give me the answer I wanted. The issue was the “and” and “or” where the code says in the sql “where authors = “Dan Brown” and/or “Cathy Cassidy”. When I used the code word “and” I was asking for the title of the book whose author is both by Dan Brown and Cathy Cassidy. Which meant the books by Dan Brown and Cathy Cassidy. Which was why it returned nothing as an answer. <br>
+	When I used the code word “or” instead of “and” it will return with any title book written by Dan Brown or any book by Cathy Cassidy which is what I wanted. It should return (Screenshot on the far right)  with the title books either by Dan Brown or by Cathy Cassidy. Which is what I wanted. The problem between those two screenshots was the wording of the question.</p>			
+			
+	<div class="col-container">
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_5.jpg" alt="Screenshot of a problem" width="400" height="147">
+    </div>
+		
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Problem_5_fixed.jpg" alt="Screenshot of a problem - fixed" width="400" height="217">
+    </div>
+	</div>	
+			
+	<p>Again, in these two screenshots the only difference between them was the wording on what I wanted. In the first screenshot (far left), I had asked what titled books had only the letter C. Which means the code isn’t incorrect but it wasn’t what I wanted. In the second screenshot (far right), I had asked what titled books had the letter C in it so it gave me all titles of books beginning with C since I used a space before the letter C - “% C%”. All of these sql codes in the screenshot are correctly written but it was just the wording on how to get the answer wasn’t exactly right. There was one sql code where I used “=” and the other was where I used “like”. When I was fixing these codes, I learnt that one letter can change everything in a code. This meant I had to be careful about what I wanted.</p>			
+
+	<p><b>Reflection:</b>
+			<br>
+	In Version two, I have used a basic association table that has a genre and book table into the database. Association tables are where two tables link with each other to give important information which each of the tables hold. After taking a look at the association table, it was time to answer the queries I had made in Version 1. During the process of answering the queries, I came up with a few errors. I have managed to screen capture the errors that have been produced and I made. After successful trials and errors, I managed to answer the queries I have made in Version 1.</p>
+			
+	<br id="Version 3">
+			
+			<hr>
+
+	<h1>Version Three</h1>
+	<p><b>Aim:</b> Creating another table and association table and extending the database to make it a little bit more complicated. </p>	
+			
+	<p><b>Limitation with my database and create a Version 3: </b>	<br>
+	In my database, there is only a genre and book table. Since this database is for a book club,  it is important to know what books each member has read. So I think it would be an important opportunity to expand my database by creating a members_table holding information in it like first_name, last_name, age, year_of_birth, school_or_university and country. Maybe later on after Version three, I could possibly create a rating system for members to submit/enter after reading a book to convince other club members to read as well. </p>
+			
+	<p><b>Collecting Book Club Member Data: </b></p>
+	<a href="https://docs.google.com/document/d/16ArpdPUhQTOe8jtf5Ssj5u6gwKZNmLu9dQ3lUoa0ooo/edit" class="btn">Link to Book Club Member Data</a>
+			
+	<p><b>Create table and put data into google sheets: </b><br>
+	<p>Note: The tabs at the bottom of the google sheet has different titles - please take a look at all of them</p>
+	<a href="https://docs.google.com/spreadsheets/d/1SnHYSvaVLCoOwHqqtG5E9hV0JEGQHSIeuxdH6UdPpcE/edit?usp=sharing" class="btn">Link to My Book Data</a>		
+	
+	<div class="col-container">
+	<div class="col">
+	<p><b>Creating Association Diagrams:</b><br>
+				Photo Evidence:</p>
+				</div>
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Version_3_Page_4.jpg" alt="Scanned copy of an association Diagram" width="400" height="240">
+				</div>
+				</div>		
+			
+	<div class="col-container">
+	<div class="col">
+	<p><b>Data Types and Boundary Limits:</b><br>
+				Photo Evidence:</p>
+				</div>
+    <div class="col">
+	<img class="img-responsive" src="assets/img/Version_3_Page_5.jpg" alt="Scanned copy of the Data Types and Boundary Limits" width="350" height="348">
+				</div>
+				</div>		
+			
+	<p><b>Written Queries that a people from the Book Club would ask:</b>
+		<br> 
+	<u>Possible queries: </u><br></p>
+		<ul>
+	<li>Give Information on all the members</li>
+		<br>
+	<li>Find all book titles with genres and the members of the book clubs who have read them</li>
+		<br>
+	<li>What books has Chloe read? And give title and genre of the books</li>
+		<br>
+	<li>How many people have read ‘The Book Thief’?</li>
+		<br>
+	<li>How many people have read books from the genre ‘Young Adult’?</li>
+		</ul>	
+		
+	<p><b>Queries that I have made and will do some testing: </b><br>
+	Evidence shown - to prove that I did do the queries</p>
+			<ul>
+	<p><li><u>Give Information on all the members</u></li></p></ul>
+	
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select member_table.first_name, member_table.last_name, 
+	member_table.age, member_table.year_of_birth, 
+	member_table.school_or_university, member_table.country
+	from member_table;
+			</code>
+			</pre>
+
+	<table class="my-table">
+	<tr><th>*First Name</th><th>Last Name</th><th>Age</th><th>Year Of Birth</th><th>School or University</th><th>Country</th></tr>
+	<tr><td>Luca</td><td>Weber</td><td>21</td><td>1999</td><td>University</td><td>Switzerland</td></tr>
+	<tr><td>Grayson</td><td>Richards</td><td>20</td><td>2000</td><td>University</td><td>New Zealand</td></tr>
+	<tr><td>Jorja</td><td>Park</td><td>19</td><td>2001</td><td>University</td><td>Sweden</td></tr>
+	<tr><td>Putri</td><td>Daly</td><td>15</td><td>2005</td><td>School</td><td>Indonesia</td></tr>
+	<tr><td>Kenzie</td><td>Lovell</td><td>19</td><td>2001</td><td>University</td><td>United Kingdom</td></tr>
+	<tr><td>Layla</td><td>Peterson</td><td>16</td><td>2006</td><td>School</td><td>America</td></tr>
+	</table>
+		<p>* Shorted the Table so it wouldn't be too long</p>	
+				<br>
+			
+	<ul><p><li><u>Find all book titles with genres and the members of the book clubs who have read them</u></li></p></ul>
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title, genre_table.genre, member_table.first_name
+	from member_table
+	join association_member_book on member_table.member_id = association_member_book.member_id
+	join book_table on association_member_book.book_id = book_table.book_id
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id;
+			</code>
+			</pre>
+
+	<table class="my-table">
+	<tr><th>*Title</th><th>Genre</th><th>First Name</th></tr>
+	<tr><td>The Book Thief</td><td>Fiction</td><td>Luca</td></tr>
+	<tr><td>The Book Thief</td><td>Fiction</td><td>Chloe</td></tr>
+	<tr><td>The Book Thief</td><td>Fiction</td><td>Haydon</td></tr>
+	<tr><td>The Book Thief</td><td>Fiction</td><td>Bridget</td></tr>
+	<tr><td>Clockwork Princess</td><td>Fantasy</td><td>Layla</td></tr>
+	<tr><td>Clockwork Princess</td><td>Young Adult</td><td>Layla</td></tr>
+	<tr><td>Harry Potter and the Order of the Phoenix</td><td>Fantasy</td><td>Farrah</td></tr>
+	<tr><td>Harry Potter and the Order of the Phoenix</td><td>Fantasy</td><td>Oliwier</td></tr>
+	<tr><td>Delirium</td><td>Fiction</td><td>Jorja</td></tr>
+	<tr><td>Delirium</td><td>Young Adult</td><td>Jorja</td></tr>
+	</table>
+		<p>* Shorted the Table so it wouldn't be too long</p>	
+				<br>	
+	
+	<ul><p><li><u>What books has Chloe read? And give title and genre of the books</u></li></p></ul>
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select book_table.title, genre_table.genre, member_table.first_name
+	from member_table
+	join association_member_book on member_table.member_id = association_member_book.member_id
+	join book_table on association_member_book.book_id = book_table.book_id
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id
+	where member_table.first_name = "Chloe";
+			</code>
+			</pre>
+
+	<table class="my-table">
+	<tr><th>Title</th><th>Genre</th><th>First Name</th></tr>
+	<tr><td>The Book Thief</td><td>Fiction</td><td>Chloe</td></tr>
+	<tr><td>A Wanted Man</td><td>Thriller</td><td>Chloe</td></tr>
+	</table>	
+			<br>	
+	
+	<ul><p><li><u>How many people have read ‘The Book Thief’?</u></li></p></ul>
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select count(distinct member_table.first_name) as "number of people"
+	from member_table
+	join association_member_book on member_table.member_id = association_member_book.member_id
+	join book_table on association_member_book.book_id = book_table.book_id
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id
+	where book_table.title = "The Book Thief";
+			</code>
+			</pre>
+
+	<table class="my-table">
+	<tr><th>Number of People</th></tr>
+	<tr><td>4</td></tr>
+	</table>	
+				<br>
+			
+	<ul><p><li><u>How many people have read books from the genre ‘Young Adult’?</u></li></p></ul>
+	<pre style="font-size: 1.1em;">
+	<code class="SQL">
+	select count(distinct member_table.first_name) as "number of people" 
+	from member_table
+	join association_member_book on member_table.member_id = association_member_book.member_id
+	join book_table on association_member_book.book_id = book_table.book_id
+	join association_book_genre on book_table.book_id = association_book_genre.book_id
+	join genre_table on association_book_genre.genre_id = genre_table.genre_id
+	where genre_table.genre= "Young Adult";
+			</code>
+			</pre>
+
+	<table class="my-table">
+	<tr><th>Number of People</th></tr>
+	<tr><td>8</td></tr>
+	</table>	
+				<br>	
+				
+	<p><b>Reflection:</b>
+			<br>
+	In Version three, I have upgraded my book database by creating imaginary members to pretend that it is a real book club. It was like Version one and Version 2 but much simpler. As you can see, I have found a limitation in the database and decided to expand on it. The problem in the database was there wasn’t any member data to make it more realistic so I decided to to make up some members to act as if there is a book club using the database. I have then created what information I needed for the member_table. This is important and essential to do before collecting data so I decided to choose the member’s first and last name, age, year of birth, whether they go to University or School and what country they live in. <br>
+	After I have collected data for the member_table, it was now to put them in columns in google sheets. I had the columns: first_name, last_name, age, year_of_birth, school_or_university and country. I have attached a link above to see the sheet. Soon after I had created a google sheet file for the data I have collected. I thought it was important to design an association diagram to show which tables are attached to what. This diagram will help me visually when creating joins in the sql coding. It is also important to create data types and boundary limits for each of the tables that will be in the database. It will also help me when I create tables using sql code for the database. <br>
+	After I have done all my brainstorming and planning. It was time to create the database. While I was creating the database, I came up with a few queries that a member from a book club could potentially ask. When I had finished building the database and making up queries. I decided to test out my database by using the queries that I have made up to see if the whole thing works. Unfortunately, I did not have any problems that had come up when I was doing my queries. 
+	</p>
+			
+	<br id="RI">
+			
+			<hr>
+			
+	<h1> Relevant Implications Summary</h1>
+	<p><b>End User Considerations</b></p>
+	
+	<p>End User Considerations is about creating a database or any developed apps with the design decisions and presenting information to be helpful for the other end of the user rather than the developer. This allows the user to have a happy experience as it will be easy for them to use.<br>
+	The database uses single word lower-case, field names and underscores to separate words instead of using spaces.<br>
+	This is useful for the developer and necessary for the functionality of system (field names with spaces are more difficult to use in queries)<br>
+	To address this relevant implication I have used aliasing with field names in the select part of the query.<br>
+	This means that table titles in the data presentation are presented helpfully to the user. <br>
+	For example page_count can be presented to the user as ‘Number of Pages’.</p>
+
+	<img class="img-responsive" src="assets/img/Aliasing_1.jpg" alt="Screenshot of an example of aliasing" width="450" height="37">
+			
+	<p>In the code above, you can see I have used aliases when there was a long title “select book_table.title” to a shortened title “titles” and it also worked on the title “book_table.author” to “authors”. This allows me to write a better title and make it better use (user friendly).</p>
+			<br>
+			
+	<p><b>Sustainability and Future Proofing</b></p>
+	<p>Sustainability and Future Proofing is about making sure a digital product is easy to update and easy to add new features to.<br>
+	To show Sustainability and Future Proofing, I have decided to Normalize my database because it is a method used widely everywhere to avoid any repetition and gaps in data sets. Normalisation is removing gaps and repeated data. In Version 1 - Stage 2 I decided to find awkwardly fitted data and it gave me an opportunity to Normalise my database. This means that any changes to the data can easily be updated because the update will only have to happen in one place. It also gives me an easier opportunity to add a new title without missing any of my other work up.<br>
+	Since I have used relational tables, it will be easier to extend the database (which I will be doing in Version 3). In Version 3, I will be creating another simple table of readers who have read books. This will mean I just need to add an extra table and not having to make any changes to the data.</p>
+			
+	<div class="col-container">
+    <div class="col">
+    <img class="img-responsive" src="assets/img/Normalisation_1.jpg" alt="Screenshot of a Normalisation - Pic 1" width="132" height="300">
+    </div>
+		
+    <div class="col">
+    <img class="img-responsive" src="assets/img/Normalisation_2.jpg" alt="Screenshot of a Normalisation - Pic 2" width="127" height="300">
+    </div>
+		
+	<div class="col">
+    <img class="img-responsive" src="assets/img/Normalisation_3.jpg" alt="Screenshot of a Normalisation - Pic 3" width="400" height="163">
+    </div>
+	</div>
+	<br>
+
+	<p><b>Cultural Implications</b></p>
+	<p>Cultural Implications is about making sure the digital product is culturally appropriate. <br>
+	In New Zealand, there are many book titles that use the native New Zealand language (Māori). It is important that I made sure that they were stored correctly and appeared in the right form. I did tests to see if the unique letters appear. 
+	</p>		
+	<img class="img-responsive" src="assets/img/Cultural_Implications.jpg" alt="Screenshot of an example of aliasing" width="450" height="93">
+	<br>
+			
+	<p><b>Functionality</b></p>
+	<p>Functionality is the date of an app, website or database that is being useful to the user. <br>
+	When I was creating the database table and finding the data type for each of the attributes, the ISBN numbers were a problem. If I put the ISBN numbers as the data type ‘integer’ it will chop off the starting zero. As this won’t be helpful because it has to have 13 numbers or 10 numbers.<br>
+	For example: In the database, there is a book called ‘Ireland” which has the ISBN number of ‘<b>0</b>439014360’. As you can see there is <b>1</b> zero that will be chopped off if I put the data type as an integer. 
+	</p>	
+			<br>
+	<p>If the ISBN number was put as an integer and there were dashes in between the numbers. It would also be problematic so I decided to make sure all of the ISBN had no dashes and were all consistent. <br>
+	Another problem I found when I was collecting data was one of the books ‘Ngā Mahi Pārekareka kei te Marae, Fun at the Marae’ had an ISBN number that had no dashes while all the other books had dashes. To make life much simpler, it would be easier to take out all the dashes in the ISBN numbers. <br>
+	Overall, I decided to put the ISBN number in text. This would mean the zeros wouldn’t be taken off but it would just mean the ISBN number wouldn’t be treated as a number as it wouldn’t be a problem throughout the process. Since I will not be adding or doing anything to the numbers. </p>	
+			<br>
+	<p><b>Privacy Act</b></p>
+	<p>Digital privacy is when anyone can use the internet or any devices like your laptop without anyone taking your personal information. This is a very important and huge problem in the world. In my database, I have decided to make up each of the members’ data by going to a name generator website. I have made up the birth country, year of birth, age and other information. This is because it will keep other people safe instead of using their real name and birth country. If this database does get let out into the world and I used real peoples’ name it would cause a huge problem. </p>
+			
+			</div>
+			<div class="footer">
+				&copy; Copyright 2015
+			</div>
+	</body>
+</html>
