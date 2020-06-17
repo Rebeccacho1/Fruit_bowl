@@ -1,5 +1,3 @@
-from Validations import get_validated_integer
-
 def get_integer(m):
     my_integer = int(input(m))
     return my_integer
@@ -65,5 +63,3 @@ def menu():
 
 if __name__ == "__main__":
     menu()
-
-
